@@ -9,10 +9,10 @@ class TriviaService{
     }
     
     getInfo(){
-        console.log(api)
         api.get('').then(res => {
-            console.log(res);
+            //console.log(res);
             ProxyState.questions = res.data.results.map(rawInfo => new Info(rawInfo))
+            console.log(ProxyState.questions)
         })
     }
 }

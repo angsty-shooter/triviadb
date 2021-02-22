@@ -1,8 +1,14 @@
-import { TriviaService } from "../Services/TriviaService.js";
+import { triviaService } from "../Services/TriviaService.js";
 
 
 
+function _draw(){
+
+}
 
 export default class TriviaController{
 
+    constructor(){
+
+    }
 }
